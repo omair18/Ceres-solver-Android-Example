@@ -1,4 +1,4 @@
-# Ceres-solver-Android-NDK-Example
+# Ceres-solver Android NDK Example
 An example for compiling ceres-solver helloworld.cc with Android NDK including OpenCV(2.4.9)
 Clone Ceres-solver first. 
 
@@ -26,7 +26,7 @@ If you are trying to use OpenCV-2.4.9 in your Android project then make followin
     
     APP_ABI := armeabi-v7a armeabi
 
-Now compile ceres-solver using #ndk-build. Once done, you will find objs created in ../obj/local/armeabi/libceres.a
+Now compile ceres-solver using ndk-build. Once done, you will find objs created in ../obj/local/armeabi/libceres.a
 
 Now go to your Android project and paste these Android.mk & Application.mk files inside the jni folder. 
 
